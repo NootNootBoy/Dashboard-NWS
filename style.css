@@ -1,0 +1,228 @@
+body {
+  background: linear-gradient(45deg, #276c92, #42538c);
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+
+.innerwidth {
+  max-width: 1000px;
+  overflow: hidden;
+  padding: 0 20px;
+  margin: auto;
+}
+
+.containerResultatRow {
+  display: flex;
+  flex-wrap: wrap;
+}
+.containerResultatCol1 {
+  flex: 70%;
+}
+.containerResultatCol2 {
+  flex: 20%;
+  margin: auto;
+}
+
+.bar {
+  padding-right: 30px;
+}
+.bar #EntrepriseInput {
+  width: 500px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  color: #ddd;
+  box-sizing: border-box;
+  background: linear-gradient(45deg, #276c92, #42538c);
+  box-shadow: 0px 1px 10px 0px #070707;
+  border-radius: 4px;
+  border: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+.bar #EntrepriseInput::placeholder {
+  color: #ddd;
+}
+
+.bar #EntrepriseInput {
+  padding-left:45px; }
+  .bar{
+  position:relative; }
+  .bar i{
+  position:absolute; left:0; top:10px; padding:9px 16px; color:#ddd; }
+#btnsearch {
+  border: none;
+  padding: 8px 25px;
+  box-shadow: 0px 1px 5px 0px #070707;
+  font-size: 1em;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(45deg, #276c92, #42538c);
+  cursor: pointer;
+  transition: all 0.3s;
+  filter: hue-rotate(0deg) saturate(1);
+  margin: 10px;
+}
+
+#btnsearch {
+  color: white;
+}
+
+#btnsearch:hover {
+  transform: scale(1.05);
+}
+
+#AXA {
+  margin-top: 20px;
+}
+
+#Container {
+  margin: 20px 20px;
+}
+
+.maxwidth {
+  width: 100%;
+}
+
+#containerCard {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  display: none;
+}
+
+.profileCard {
+  display: flex;
+  flex-direction: row;
+  background-color: #264768;
+  border-radius: 25px;
+  transition: 0.5s ease;
+  box-shadow: 0px 1px 10px 0px #070707;
+  margin-top: 30px;
+}
+
+.profileCard:hover {
+  box-shadow: 0px 5px 10px 0px #070707;
+}
+
+.imageContainer {
+  width: 100px;
+  text-align: center;
+}
+
+.imageContainer img {
+  width: 100px;
+  border-radius: 40%;
+  border: 1px solid #5cb794;
+  box-shadow: 0px 12px 24px -9px rgba(0, 0, 0, 0.75);
+}
+
+.textContainer {
+  width: 400px;
+  margin-left: 20px;
+}
+
+.textContainer h1 {
+  font-size: 22px;
+  font-style: bold;
+  letter-spacing: 2px;
+}
+
+.textContainer h2 {
+  font-size: 22px;
+  font-style: bold;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.textContainer h3 {
+  font-size: 16px;
+  font-style: normal;
+  margin-top: 5px;
+}
+
+.textContainer p {
+  margin-top: 10px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+.textContainer a {
+  text-decoration: none;
+  color: #5cb794;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.textContainer a:hover {
+  text-decoration: none;
+  color: rgb(38, 73, 60);
+  cursor: pointer;
+}
+
+@media (max-width: 1050px) {
+  .containerResultatCol1 {
+    flex: 0;
+  }
+  .containerResultatCol2 {
+    flex: 0;
+    margin: auto;
+  }
+  .bar #EntrepriseInput::placeholder {
+    padding-left:0px; }
+    .bar{
+    position:relative; }
+    .bar i{
+    position:absolute; left:0; top:10px; padding:9px 16px; color:#ffffff; }
+  .bar {
+    padding-right: 0px;
+}
+
+@media (max-width: 900px) {
+  .bar #EntrepriseInput {
+    width: 320px;
+  }
+}
+@media (max-width: 720px) {
+  .bar #EntrepriseInput {
+    width: 275px;
+  }
+}
+@media (max-width: 680px) {
+  .bar #EntrepriseInput {
+    width: 230px;
+  }
+}
+
+@media (max-width: 435px) {
+  .bar #EntrepriseInput {
+    width: 200px;
+  }
+
+  #btnsearch {
+    border: none;
+    padding: 8px 5px;
+    box-shadow: 0px 1px 5px 0px #070707;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(45deg, #276c92, #42538c);
+    cursor: pointer;
+    transition: all 0.3s;
+    filter: hue-rotate(0deg) saturate(1);
+    margin: 10px;
+  }
+}
+
+@media (max-width: 325px) {
+  .bar #EntrepriseInput {
+    width: 150px;
+  }
+  #btnsearch {
+    border: none;
+    padding: 8px 2px;
+}
