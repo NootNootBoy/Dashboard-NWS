@@ -6,6 +6,31 @@ body {
   color: #fff;
 }
 
+#piechart_3d {
+  width: 100%;
+  height: 120%;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  border: 5px solid #1d1d1d;
+  box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #276c92, #42538c);
+  border-radius: 3px;
+}
+
+.chart {
+  margin: 20px auto;
+  width: 300px;
+  height: 300px;
+}
+
 .innerwidth {
   max-width: 1000px;
   overflow: hidden;
@@ -48,11 +73,18 @@ body {
 }
 
 .bar #EntrepriseInput {
-  padding-left:45px; }
-  .bar{
-  position:relative; }
-  .bar i{
-  position:absolute; left:0; top:10px; padding:9px 16px; color:#ddd; }
+  padding-left: 45px;
+}
+.bar {
+  position: relative;
+}
+.bar i {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  padding: 9px 16px;
+  color: #ddd;
+}
 #btnsearch {
   border: none;
   padding: 8px 25px;
@@ -173,15 +205,22 @@ body {
     margin: auto;
   }
   .bar #EntrepriseInput::placeholder {
-    padding-left:0px; }
-    .bar{
-    position:relative; }
-    .bar i{
-    position:absolute; left:0; top:10px; padding:9px 16px; color:#ffffff; }
+    padding-left: 0px;
+  }
+  .bar {
+    position: relative;
+  }
+  .bar i {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    padding: 9px 16px;
+    color: #ffffff;
+  }
   .bar {
     padding-right: 0px;
+  }
 }
-
 @media (max-width: 900px) {
   .bar #EntrepriseInput {
     width: 320px;
@@ -225,4 +264,5 @@ body {
   #btnsearch {
     border: none;
     padding: 8px 2px;
+  }
 }
