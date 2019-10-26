@@ -21,7 +21,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(45deg, #276c92, #42538c);
+  background: linear-gradient(45deg, #276c92, #276c92);
   border-radius: 3px;
 }
 
@@ -129,11 +129,37 @@ body {
 .profileCard {
   display: flex;
   flex-direction: row;
-  background-color: #264768;
-  border-radius: 25px;
+  background-color: #276c92;
+  border-radius: 15px;
   transition: 0.5s ease;
   box-shadow: 0px 1px 10px 0px #070707;
   margin-top: 30px;
+  position: relative;
+}
+
+.profileCardEtu {
+  display: flex;
+  flex-direction: row;
+  background-color: #276c92;
+  border-radius: 10px;
+  transition: 0.5s ease;
+  box-shadow: 0px 1px 10px 0px #070707;
+  margin-top: 30px;
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  right: 25px;
+  top: 19px;
+  cursor: pointer;
+  transition: 1s;
+  color: #ddd;
+}
+.icon:hover {
+  color: #fff;
+  text-shadow: 0px 1px 10px #fff;
+  transition: 1s;
 }
 
 .profileCard:hover {
@@ -194,6 +220,27 @@ body {
   text-decoration: none;
   color: rgb(38, 73, 60);
   cursor: pointer;
+}
+
+#Container h2 {
+  margin-bottom: 40px;
+  font-size: 30px;
+  color: #fff;
+  text-shadow: 0px 1px #1d1d1d;
+}
+
+#Container h2 span:nth-child(1) {
+  font-size: 34px;
+  color: #fcea1d;
+}
+#Container h2 span:nth-child(2) {
+  font-size: 34px;
+
+  color: #52b999;
+}
+#Container h2 span:nth-child(3) {
+  font-size: 34px;
+  color: #1d1d1d;
 }
 
 @media (max-width: 1050px) {

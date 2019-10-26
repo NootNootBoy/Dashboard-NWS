@@ -27,16 +27,39 @@
             </div>
 
             <a href="index.html" class="button"><i class="fas fa-chart-line"></i>Dashboard</a>
-            <a href="entreprise.html" class="button"
+            <a href="Entreprise.html" class="button"
               ><i class="fas fa-search-location"></i>Liste d'Entreprise</a
             >
-            <a href="etu.html" class="button"
+            <a href="Etudiants.html" class="button"
               ><i class="fas fa-graduation-cap"></i>Liste des Etudiants</a
             >
-            <a href="profil.html" class="button"><i class="fas fa-user"></i>Profil</a>
+            <a href="#" class="button" onclick="hophophop()"><i class="fas fa-user"></i>Profil</a>
           </div>
         </div>
         <div id="flexcol2">
+          <div class="innerwidth">
+            <div class="containerResultatRow">
+              <div class="containerResultatCol1">
+                <div class="bar">
+                  <input
+                    type="text"
+                    id="EntrepriseInput"
+                    required
+                    size="45"
+                    placeholder="Recherche Entreprise..."
+                    minlength="1"
+                    maxlength="32"
+                  />
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="containerResultatCol2">
+                <div class="btnrecherche">
+                  <button id="btnsearch" type="button">Rechercher</button>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="maxwidth">
             <div id="Container"></div>
           </div>
@@ -45,6 +68,6 @@
     </div>
 
     <script type="text/javascript" src="menu.js"></script>
-    <script type="text/javascript" src="loaderentreprise.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>

@@ -19,7 +19,7 @@ function toggle() {
 
 function toggle2() {
   if (i == 0) {
-    document.getElementById("arrow2").style.transform = "rotate(0deg)";
+    document.getElementById("arrow2").style.transform = "rotate(-180deg)";
     document.getElementById("toggle2").style.left = "50px";
     document.getElementById("arrow2").style.color = "white";
     document.getElementById("menu").style.left = "0";

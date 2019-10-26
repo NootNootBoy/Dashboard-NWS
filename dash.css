@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400&display=swap");
 
 body {
   background: linear-gradient(45deg, #297094, #43427a);
@@ -6,6 +6,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Montserrat", sans-serif;
+  font-weight: 400;
 }
 
 ::-webkit-scrollbar {
@@ -51,6 +52,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .cubestats {
   width: 250px;
   height: 250px;
@@ -174,7 +176,7 @@ a:hover {
   }
 
   .profil img {
-    margin-left: 50px;
+    margin-left: 125px;
   }
 
   .toggle {
@@ -224,7 +226,7 @@ a:hover {
   .menu {
     background: #31335d;
     position: relative;
-    width: 300px;
+    width: 400px;
     height: 100vh;
     top: 0;
     left: -300px;
